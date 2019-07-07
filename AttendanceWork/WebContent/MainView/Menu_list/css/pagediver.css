@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+.page_btn {
+            padding-top: 40px;
+            text-align: center;
+        }
+
+        .page_btn a {
+            cursor: pointer;
+            padding: 10px 17px;
+            border: solid 1px #dbdbdb;
+            font-size: 14px;
+        }
+
+        .num {
+            padding: 0 10px;
+        }
+
+        .page_btn a:hover,.page-item:hover{
+            color: #fff;
+            background: #e84c3d;
+            border: 1px solid #e84c3d;
+        }
+
+        .page-item {
+            padding: 10px 17px;
+            text-decoration: none;
+            background-color: #ffffff;
+            border: 1px solid #dbdbdb;
+            color: #666666;
+            margin: 0 3px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        .page-item.current {
+            color: #fff;
+            background: #e84c3d;
+            cursor: pointer;
+            border: 1px solid #e84c3d;
+        }
